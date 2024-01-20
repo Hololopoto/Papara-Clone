@@ -1,0 +1,69 @@
+@media (min-width: 1024px) {
+  .container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-width: 1182px;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 22px;
+    padding-top: 150px;
+    line-height: 2rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
+.glow-1 {
+  background-color: rgba(255, 183, 198, 0.35);
+}
+.glow-2 {
+  background-color: hsla(58, 95%, 75%, 0.35);
+}
+.glow-3 {
+  background-color: rgba(85, 230, 150, 0.35);
+}
+.bdy-1 {
+  display: flex;
+}
+.right-imgs {
+  display: flex;
+}
+.phone-img {
+  width: 50%;
+  height: 454px;
+
+  display: flex;
+}
+.iphone {
+  position: absolute;
+  z-index: 2;
+  padding: 0 0 0 335px;
+  height: 454px;
+  width: auto;
+  float: inherit;
+}
+.inn {
+  padding: 10px 0 0 348px;
+  height: 434px;
+  width: auto;
+  position: absolute;
+
+  z-index: 1;
+  float: inherit;
+}
+.ppr {
+  position: absolute;
+  height: 234px;
+  display: flex;
+  z-index: 0;
+  padding: 80px 0 0 188px;
+}
+.ppr-black {
+  height: 234px;
+  display: flex;
+  z-index: 3;
+  padding: 67px 0 0 448px;
+}
