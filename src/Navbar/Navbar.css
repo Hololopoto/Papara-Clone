@@ -20,8 +20,11 @@ body {
 
 .navbar {
   box-sizing: border-box;
-  margin: 0 360px;
+  /* margin: 0 360px; */
   font-size: 1.1rem;
+}
+.top-menu {
+  margin: 0 360px;
 }
 /* { */
 /* position: fixed; */
@@ -55,8 +58,9 @@ body {
 .list-menu ul {
   color: black;
   list-style-type: none;
-  display: inline-flex;
-  padding: 0px 0 0px 0;
+  display: flex;
+  justify-content: center;
+  margin-right: 280px;
 }
 .list-menu ul li {
   list-style-type: none;
