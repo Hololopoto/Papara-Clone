@@ -1,14 +1,15 @@
 @media (min-width: 1024px) {
   .navbar {
     padding-top: 20px;
-    position: fixed;
-    height: 130px;
+    /* position: fixed; */
+
     background-color: #fff;
-    z-index: 50;
+    z-index: 100;
   }
 }
 
 body {
+  background-color: aqua;
   margin: 0;
   padding: 0;
   /* font-family: "neune galano thin,arial"; */
@@ -21,10 +22,15 @@ body {
 .navbar {
   box-sizing: border-box;
   /* margin: 0 360px; */
+  position: fixed;
+  height: 130px;
   font-size: 1.1rem;
+  z-index: 110;
 }
 .top-menu {
   margin: 0 360px;
+  /* position: fixed; */
+  z-index: 50;
 }
 /* { */
 /* position: fixed; */
@@ -43,7 +49,7 @@ body {
 } */
 .navbar-logo {
   width: 145px;
-  height: auto;
+  height: 40px;
   margin-left: 23px;
 }
 
@@ -59,8 +65,11 @@ body {
   color: black;
   list-style-type: none;
   display: flex;
+  position: fixed;
+  z-index: 90;
   justify-content: center;
-  margin-right: 280px;
+  margin: 0 0;
+  padding: 10px 0 0 360px;
 }
 .list-menu ul li {
   list-style-type: none;
@@ -124,12 +133,11 @@ button {
   color: #fff;
   background-color: black;
   border-radius: 8px;
-  height: 2.5rem !important;
-  font-size: 1rem !important;
+  height: 2.4rem !important;
+  font-size: 0.99rem !important;
   line-height: 40px !important;
-  /* padding: 0 20px; */
-  min-width: 164px;
-  top: 6rem;
+  /* padding: 0 10px; */
+  min-width: 160px;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 0.3s;
