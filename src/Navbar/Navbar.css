@@ -19,6 +19,7 @@ body {
 }
 
 .navbar {
+  box-sizing: border-box;
   margin: 0 360px;
   font-size: 1.1rem;
 }
