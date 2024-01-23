@@ -13,18 +13,19 @@ function Navbar() {
     };
   }, []);
   return (
-    <div className="navbar">
-      <div className="top-menu">
-        <img
-          className="navbar-logo"
-          alt="Papara Logo"
-          loading="lazy"
-          width="146"
-          height="35"
-          decoding="async"
-          data-nimg="1"
-          src="https://upload.wikimedia.org/wikipedia/commons/c/c0/PAPARA.png"></img>
-
+    <div className="navbar container fixed-top ">
+      <div className="top-menu ">
+        <a href="#">
+          <img
+            className="navbar-logo"
+            alt="Papara Logo"
+            loading="lazy"
+            width="146"
+            height="35"
+            decoding="async"
+            data-nimg="1"
+            src="https://upload.wikimedia.org/wikipedia/commons/c/c0/PAPARA.png"></img>
+        </a>
         <div className="navbar-left">
           <a href="/">Bireysel</a>
           <a href="/">Ticari</a>
@@ -71,8 +72,8 @@ function Navbar() {
           )}
         </div>
       </div>
-      <div className="list-menu">
-        <ul>
+      <div className="list-menu ">
+        <ul className="list-group-horizontal">
           <li>
             <a href="/">Para Transferi</a>
           </li>

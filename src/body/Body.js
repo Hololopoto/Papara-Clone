@@ -4,10 +4,10 @@ import "./body.css";
 function Body() {
   return (
     <section>
-      <div className="container">
+      <div className="first container">
         <div className="bdy">
           <div className="bdy-1">
-            <div className="left">
+            <div className="left d-flex flex-column  justify-content-start">
               <h1>Banka Değil, Papara</h1>
               <p>
                 <mark className="glow-1">7/24 ücretsiz para gönder, </mark>
@@ -23,7 +23,7 @@ function Body() {
                 <button className="btn-sign">Papara Hesabı Aç</button>
               </span>
             </div>
-            <div className="right">
+            <div className="right dp-flex">
               <div className="right-imgs">
                 <img
                   className="ppr"
