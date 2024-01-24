@@ -23,7 +23,7 @@ function Body() {
             </span>
           </div>
           <div className="right d-flex">
-            <div className="right-imgs">
+            <div className="right-imgs d-flex">
               <img
                 className="ppr"
                 src="https://cdn.papara.com/web/cards/gray_mastercard.svg"
@@ -39,20 +39,20 @@ function Body() {
                   height={560}
                 />
                 <img
-                  className="inn"
+                  className="inn w-auto"
                   width={280}
                   height={560}
                   src="https://www.papara.com/home.png?v=1"
                   alt="inn"
                 />
+                <img
+                  className="ppr-black"
+                  width={181}
+                  height={287}
+                  src="https://cdn.papara.com/web/cards/black-mastercard.svg"
+                  alt="Papara Black"
+                />
               </div>
-              <img
-                className="ppr-black"
-                width={181}
-                height={287}
-                src="https://cdn.papara.com/web/cards/black-mastercard.svg"
-                alt="Papara Black"
-              />
             </div>
           </div>
         </div>

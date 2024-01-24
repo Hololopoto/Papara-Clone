@@ -1,19 +1,18 @@
-@media (min-width: 1024px) {
-  .first {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    max-width: 1182px;
-    flex-direction: column;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    font-size: 22px;
-    padding-top: 150px;
-    line-height: 2rem;
-    margin: 16px 0 26px 0;
-  }
+.first {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  max-width: 1182px;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 22px;
+  padding-top: 150px;
+  line-height: 2rem;
+  margin: 16px 0 26px 0;
 }
+
 h1 {
   font-size: 3.7rem;
   padding: 0 0 20px 0;
@@ -77,10 +76,10 @@ p {
   margin: 110px 0 0 0;
 }
 .ppr-black {
-  position: relative;
+  position: absolute;
   height: 287px;
   display: flex;
-  left: 365px;
+  right: 37px;
   z-index: 3;
   margin: 70px 0 0 0;
 }
