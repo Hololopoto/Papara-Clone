@@ -11,23 +11,23 @@
     font-size: 22px;
     padding-top: 150px;
     line-height: 2rem;
-    margin: 16px 0 0 0;
+    margin: 16px 0 26px 0;
   }
-  h1 {
-    font-size: 3.7rem;
-    padding: 0 0 20px 0;
-  }
-  p {
-    line-height: 2.4rem;
-  }
-  /* img {
+}
+h1 {
+  font-size: 3.7rem;
+  padding: 0 0 20px 0;
+}
+p {
+  line-height: 2.4rem;
+}
+/* img {
     display: block;
     vertical-align: middle;
   } */
-  .left {
-    padding-top: 130px;
-    font-size: 1.6rem;
-  }
+.left {
+  padding-top: 130px;
+  font-size: 1.6rem;
 }
 .glow-1 {
   background-color: rgba(255, 183, 198, 0.35);
@@ -80,7 +80,13 @@
   position: relative;
   height: 287px;
   display: flex;
-  left: 535px;
+  left: 365px;
   z-index: 3;
   margin: 70px 0 0 0;
+}
+
+.round {
+  width: 24px;
+  height: 24px;
+  border-radius: 9999px;
 }

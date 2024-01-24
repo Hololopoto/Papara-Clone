@@ -13,95 +13,97 @@ function Navbar() {
     };
   }, []);
   return (
-    <div className="navbar container fixed-top ">
-      <div className="top-menu ">
-        <a href="#">
-          <img
-            className="navbar-logo"
-            alt="Papara Logo"
-            loading="lazy"
-            width="146"
-            height="35"
-            decoding="async"
-            data-nimg="1"
-            src="https://upload.wikimedia.org/wikipedia/commons/c/c0/PAPARA.png"></img>
-        </a>
-        <div className="navbar-left">
-          <a href="/">Bireysel</a>
-          <a href="/">Ticari</a>
-        </div>
-
-        <div className="navbar-right">
-          <a href="/">Ücretler&Limitler</a>
-          <a href="/">Güvenlik</a>
-          <a href="/">Yardım</a>
-          <span id="lng">
+    <div className="navbar container-xxl fixed-top ">
+      <div className="">
+        <div className="top-menu ">
+          <a href="#">
             <img
-              alt="icon"
-              aria-hidden="true"
+              className="navbar-logo"
+              alt="Papara Logo"
               loading="lazy"
-              width="24"
-              height="24"
+              width="146"
+              height="35"
               decoding="async"
               data-nimg="1"
-              class="eng-lng"
-              align="center"
-              src="https://dkto9gpxgolik.cloudfront.net/icons/lang/en.svg"></img>
-            <a className="language" href="/">
-              English
-            </a>
-          </span>
-          {!show && (
-            <span className="span-login-btn">
-              <button className="btn-login">Giriş Yap</button>
+              src="https://upload.wikimedia.org/wikipedia/commons/c/c0/PAPARA.png"></img>
+          </a>
+          <div className="navbar-left">
+            <a href="/">Bireysel</a>
+            <a href="/">Ticari</a>
+          </div>
+
+          <div className="navbar-right">
+            <a href="/">Ücretler&Limitler</a>
+            <a href="/">Güvenlik</a>
+            <a href="/">Yardım</a>
+            <span id="lng">
               <img
-                id="login"
-                alt="logo"
+                alt="icon"
+                aria-hidden="true"
                 loading="lazy"
-                width="18"
-                height="19"
+                width="24"
+                height="24"
                 decoding="async"
                 data-nimg="1"
-                src="https://cdn.papara.com/web/icon/go.svg"></img>
+                class="eng-lng"
+                align="center"
+                src="https://dkto9gpxgolik.cloudfront.net/icons/lang/en.svg"></img>
+              <a className="language" href="/">
+                English
+              </a>
             </span>
-          )}
-          {show && (
-            <span className="span-sign-btn">
-              <button className="btn-sign">Papara Hesabı Aç</button>
-            </span>
-          )}
+            {!show && (
+              <span className="span-login-btn">
+                <button className="btn-login">Giriş Yap</button>
+                <img
+                  id="login"
+                  alt="logo"
+                  loading="lazy"
+                  width="18"
+                  height="19"
+                  decoding="async"
+                  data-nimg="1"
+                  src="https://cdn.papara.com/web/icon/go.svg"></img>
+              </span>
+            )}
+            {show && (
+              <span className="span-sign-btn">
+                <button className="btn-sign">Papara Hesabı Aç</button>
+              </span>
+            )}
+          </div>
         </div>
-      </div>
-      <div className="list-menu ">
-        <ul className="list-group-horizontal">
-          <li>
-            <a href="/">Para Transferi</a>
-          </li>
-          <li>
-            <a href="/">Ödemeler</a>
-          </li>
-          <li>
-            <a href="/">Papara Card</a>
-          </li>
-          <li>
-            <a href="/">Kıymetli Maden</a>
-          </li>
-          <li>
-            <a href="/">Birikim</a>
-          </li>
-          <li>
-            <a href="/">Sigorta</a>
-          </li>
-          <li>
-            <a href="/">Papara Edu</a>
-          </li>
-          <li>
-            <a href="/">Ödeme Al</a>
-          </li>
-          <li>
-            <a href="/">Sohbet</a>
-          </li>
-        </ul>
+        <div className="list-menu ">
+          <ul className="list-group-horizontal">
+            <li>
+              <a href="/">Para Transferi</a>
+            </li>
+            <li>
+              <a href="/">Ödemeler</a>
+            </li>
+            <li>
+              <a href="/">Papara Card</a>
+            </li>
+            <li>
+              <a href="/">Kıymetli Maden</a>
+            </li>
+            <li>
+              <a href="/">Birikim</a>
+            </li>
+            <li>
+              <a href="/">Sigorta</a>
+            </li>
+            <li>
+              <a href="/">Papara Edu</a>
+            </li>
+            <li>
+              <a href="/">Ödeme Al</a>
+            </li>
+            <li>
+              <a href="/">Sohbet</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
