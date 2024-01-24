@@ -12,7 +12,11 @@
   line-height: 2rem;
   margin: 16px 0 26px 0;
 }
-
+@media (min-width: 1200px) {
+  .first {
+    flex-direction: row;
+  }
+}
 h1 {
   font-size: 3.7rem;
   padding: 0 0 20px 0;
