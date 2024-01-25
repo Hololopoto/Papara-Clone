@@ -72,21 +72,38 @@ function Body() {
                   <span className="p1-1 ms-1">30,3826</span>
                 </div>
                 <span className="two">
-                  <span className="pr-1">%0,01</span>
+                  <span className="pr-1">%0,21</span>
                   <span className="inline-flex ms-1">↑</span>
                 </span>
               </div>
             </div>
             <div className="usd d-flex align-items-center ms-4 ">
               <img
-                src="https://dkto9gpxgolik.cloudfront.net/icons/currencies/usd.svg"
+                src="https://dkto9gpxgolik.cloudfront.net/icons/currencies/eur.svg"
                 alt="USD"
                 className="round d-flex "
               />
               <div className="d-flex flex-column ms-2 ">
                 <div className="one">
-                  <span>USD</span>
-                  <span className="p1-1 ms-1">30,3826</span>
+                  <span>EUR</span>
+                  <span className="p1-1 ms-1">33,1961</span>
+                </div>
+                <span className="two">
+                  <span className="pr-1">%0,35</span>
+                  <span className="inline-flex ms-1">↑</span>
+                </span>
+              </div>
+            </div>
+            <div className="usd d-flex align-items-center ms-4 ">
+              <img
+                src="https://dkto9gpxgolik.cloudfront.net/icons/currencies/gbp.svg"
+                alt="USD"
+                className="round d-flex "
+              />
+              <div className="d-flex flex-column ms-2 ">
+                <div className="one">
+                  <span>GBP</span>
+                  <span className="p1-1 ms-1">38,7894</span>
                 </div>
                 <span className="two">
                   <span className="pr-1">%0,01</span>
@@ -96,39 +113,29 @@ function Body() {
             </div>
             <div className="usd d-flex align-items-center ms-4 ">
               <img
-                src="https://dkto9gpxgolik.cloudfront.net/icons/currencies/usd.svg"
+                src="https://dkto9gpxgolik.cloudfront.net/icons/currencies/xau.svg"
                 alt="USD"
                 className="round d-flex "
               />
               <div className="d-flex flex-column ms-2 ">
                 <div className="one">
-                  <span>USD</span>
-                  <span className="p1-1 ms-1">30,3826</span>
+                  <span>Altın</span>
+                  <span className="p1-1 ms-1">2.018,3006</span>
                 </div>
                 <span className="two">
-                  <span className="pr-1">%0,01</span>
-                  <span className="inline-flex ms-1">↑</span>
-                </span>
-              </div>
-            </div>
-            <div className="usd d-flex align-items-center ms-4 ">
-              <img
-                src="https://dkto9gpxgolik.cloudfront.net/icons/currencies/usd.svg"
-                alt="USD"
-                className="round d-flex "
-              />
-              <div className="d-flex flex-column ms-2 ">
-                <div className="one">
-                  <span>USD</span>
-                  <span className="p1-1 ms-1">30,3826</span>
-                </div>
-                <span className="two">
-                  <span className="pr-1">%0,01</span>
-                  <span className="inline-flex ms-1">↑</span>
+                  <span className="pr-1">%0,36</span>
+                  <span className="inline-flex ms-1">↓</span>
                 </span>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="right d-flex flex-column">
+        <div className="container-xxl">
+          <a
+            href="https://apps.apple.com/us/app/papara-finansal-hizmetler/id1146507477"
+            className="flex cursor-pointer"></a>
         </div>
       </div>
     </div>
